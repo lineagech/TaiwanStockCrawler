@@ -33,7 +33,7 @@ for str in page.xpath(u"//tr[@class='row2']/descendant::text()"):
 
 ##############################################
 
-
+import matplotlib.pyplot as plt
 import requests
 from bs4 import BeautifulSoup
 
@@ -71,7 +71,14 @@ pattern = re.compile("^\s+$")
 for i in range(2, len(rows)-1):
     groups.append([])
     for group in rows[i].split(','):
-        groups[i-2].append(eval(group))
+        tmp = eval(group)
+        if( '/' in tmp ):
+            groups[i-2].append(tmp)
+        else:
+            groups[i-2].append(float(tmp))
 
 import pandas as pd
 df = pd.DataFrame(groups, columns=columns)
+
+df[['close','volume']].plot(subplots=True, figsize=(10,8))
+plt.legend(loc='best')
