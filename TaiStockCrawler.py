@@ -34,6 +34,44 @@ for str in page.xpath(u"//tr[@class='row2']/descendant::text()"):
 ##############################################
 
 
+import requests
+from bs4 import BeautifulSoup
 
+symbol = 'GOOG'.lower()
+url_template = "https://www.nasdaq.com/symbol/{symbol}/historical"
+url = url_template.format(symbol=symbol)
 
+rs = requests.session()
+r = rs.get(url)
+soup = BeautifulSoup(r.text, 'lxml')
+params = soup.select('#getFile input')
 
+timeframe = '{timestr}|true|{symbol}'.format(timestr='3m', symbol=symbol.upper())
+
+payload = {}
+for tag in params:
+    if tag['name'] != 'ctl00$quotes_content_left$submitString':
+        payload[tag['name']] = tag['value']
+    else:
+        payload[tag['name']] = timeframe
+
+r = rs.post(url, data=payload, verify=False)
+print(r.text)
+
+rows = r.text.split("\r\n")
+columns = []
+groups = []
+for group in rows[0].split(','):
+    #groups.append([eval(group)])
+    columns.append(eval(group))
+
+import re
+pattern = re.compile("^\s+$")
+
+for i in range(2, len(rows)-1):
+    groups.append([])
+    for group in rows[i].split(','):
+        groups[i-2].append(eval(group))
+
+import pandas as pd
+df = pd.DataFrame(groups, columns=columns)

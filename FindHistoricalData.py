@@ -30,3 +30,8 @@ prices = web.DataReader('AAPL', 'yahoo', start_date, end_date)
 
 prices[['Close','Volume']].plot(subplots = True, figsize = (10, 8))
 plt.legend(loc='best')
+
+
+import quandl
+df = quandl.get("YAHOO/TW_2330")
+df.head()
