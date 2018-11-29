@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c02641f-8ed1-4fd3-b120-7fccc42877a1" name="Default Changelist" comment="" />
+    <list default="true" id="6c02641f-8ed1-4fd3-b120-7fccc42877a1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaiStockCrawler.py" beforeDir="false" afterPath="$PROJECT_DIR$/TaiStockCrawler.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,36 +31,37 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="72" />
-          <entry key="py" value="904" />
+          <entry key="Python Console" value="583" />
+          <entry key="py" value="1723" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="976" />
+          <entry key="Python" value="2306" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TaiStockCrawler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="20" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="20" />
+            <state relative-caret-position="202">
+              <caret line="37" column="17" selection-start-line="37" selection-end-line="37" selection-end-column="17" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
+                <marker date="1543484289123" expanded="true" signature="1149:1150" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TaiwanHighSpeedSearch.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+            <state relative-caret-position="59">
+              <caret line="17" column="41" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="41" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -82,11 +86,14 @@
       <find>標準車廂</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/TaiStockCrawler.py" />
         <option value="$PROJECT_DIR$/TaiwanHighSpeedSearch.py" />
+        <option value="$PROJECT_DIR$/TaiStockCrawler.py" />
       </list>
     </option>
   </component>
@@ -96,6 +103,7 @@
     <option name="width" value="1750" />
     <option name="height" value="970" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -130,7 +138,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.TaiwanHighSpeedSearch">
+  <component name="RunManager" selected="Python.TaiStockCrawler">
     <configuration name="TaiStockCrawler" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TaiwanStockCrawler" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -179,8 +187,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.TaiwanHighSpeedSearch" />
         <item itemvalue="Python.TaiStockCrawler" />
+        <item itemvalue="Python.TaiwanHighSpeedSearch" />
       </list>
     </recent_temporary>
   </component>
@@ -208,17 +216,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="840" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15191546" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" auto_hide="true" x="106" y="183" width="1323" height="459" id="Python Console" type="WINDOWED" visible="true" weight="0.37146893" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32909605" />
+      <window_info active="true" anchor="bottom" auto_hide="true" x="393" y="96" width="1120" height="459" id="Python Console" type="WINDOWED" visible="true" weight="0.37146893" />
+      <window_info anchor="bottom" id="Terminal" weight="0.16690241" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.21468927" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3437058" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997175" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -250,22 +259,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TaiStockCrawler.py">
+    <entry file="file://$PROJECT_DIR$/TaiwanHighSpeedSearch.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="20" />
+        <state relative-caret-position="59">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="41" />
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TaiwanHighSpeedSearch.py">
+    <entry file="file://$PROJECT_DIR$/TaiStockCrawler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        <state relative-caret-position="202">
+          <caret line="37" column="17" selection-start-line="37" selection-end-line="37" selection-end-column="17" />
           <folding>
-            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1543484289123" expanded="true" signature="1149:1150" ph="..." />
           </folding>
         </state>
       </provider>
