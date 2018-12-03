@@ -72,6 +72,61 @@ def draw_values(ax, opens, highs, lows, closes, width=4, up_color='r', down_colo
 
     return line_collections, bar_collections
 
+def volume_overlay(ax, opens, closes, volumes, colorup='g', colordown='r', width=4, alpha=1.0):
+    """Add a volume overlay to the current axes.  The opens and closes
+    are used to determine the color of the bar.  -1 is missing.  If a
+    value is missing on one it must be missing on all
+    Parameters
+    ----------
+    ax : `Axes`
+        an Axes instance to plot to
+    opens : sequence
+        a sequence of opens
+    closes : sequence
+        a sequence of closes
+    volumes : sequence
+        a sequence of volumes
+    width : int
+        the bar width in points
+    colorup : color
+        the color of the lines where close >= open
+    colordown : color
+        the color of the lines where close <  open
+    alpha : float
+        bar transparency
+    Returns
+    -------
+    ret : `barCollection`
+        The `barrCollection` added to the axes
+    """
+
+    colorup = colorConverter.to_rgba(colorup, alpha)
+    colordown = colorConverter.to_rgba(colordown, alpha)
+    colord = {True: colorup, False: colordown}
+    colors = [colord[open < close]
+              for open, close in zip(opens, closes)
+              if open != -1 and close != -1]
+
+    delta = width / 2.
+    bars = [((i - delta, 0), (i - delta, v), (i + delta, v), (i + delta, 0))
+            for i, v in enumerate(volumes)
+            if v != -1]
+
+    barCollection = collections.PolyCollection(bars,
+                                   facecolors=colors,
+                                   edgecolors=((0, 0, 0, 1), ),
+                                   antialiaseds=(0,),
+                                   linewidths=(0.5,),
+                                   )
+
+    ax.add_collection(barCollection)
+    corners = (0, 0), (len(bars), max(volumes))
+    ax.update_datalim(corners)
+    ax.autoscale_view()
+
+    # add these last
+    return barCollection
+
 def draw(df, title="", up_color='r', down_color='g'):
     startdate = datetime.date(df.index[0].year, df.index[0].month, df.index[0].day)
     enddate = datetime.date(df.index[-1].year, df.index[-1].month, df.index[-1].day)
@@ -95,7 +150,7 @@ def draw(df, title="", up_color='r', down_color='g'):
             if index < 0 or index >= len(df.Date):
                 return ""
             else:
-                return "{}, y={:1.1f}M, price={:10.2f}M".format(df.Date[index], y*1e-6, df.Volume[index]*1e-6)
+                return "{}, y={:1.1f}M, price={:10.2f}M".format(df.index[index], y*1e-6, df.Volume[index]*1e-6)
         except Exception as e:
             print(e.args)
             return ""
@@ -118,6 +173,7 @@ def draw(df, title="", up_color='r', down_color='g'):
     ax1 = plt.subplot(gd[1,:], sharex=ax0)
 
     draw_values(ax0, df.Open, df.High, df.Low, df.Close, width=1)
+    volume_overlay(ax1, df.Open, df.Close, df.Volume, colorup='g', colordown='r', width=4, alpha=1.0)
 
     dates_array = get_dates(startdate, enddate)
     xticks_date_indexes = get_xticks_date_index(df.index, dates_array)
