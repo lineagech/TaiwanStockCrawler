@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c02641f-8ed1-4fd3-b120-7fccc42877a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/StockPlot.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StockPlot.py" beforeDir="false" afterPath="$PROJECT_DIR$/StockPlot.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,10 +15,11 @@
     <session id="-123041233">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -35,13 +36,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="1428" />
-          <entry key="py" value="4946" />
+          <entry key="Python Console" value="1470" />
+          <entry key="py" value="5434" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="6374" />
+          <entry key="Python" value="6904" />
         </counts>
       </usages-collector>
     </session>
@@ -51,7 +52,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TaiStockCrawler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1545">
+            <state relative-caret-position="1738">
               <caret line="82" column="2" selection-start-line="82" selection-end-line="82" selection-end-column="2" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
@@ -63,14 +64,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/StockPlot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="84" column="37" selection-start-line="84" selection-start-column="23" selection-end-line="84" selection-end-column="37" />
+            <state relative-caret-position="2244">
+              <caret line="132" column="65" selection-start-line="132" selection-start-column="65" selection-end-line="132" selection-end-column="65" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
-                <marker date="1543568118846" expanded="true" signature="696:844" ph="..." />
-                <marker date="1543568118846" expanded="true" signature="897:3532" ph="..." />
-                <marker date="1543568118846" expanded="true" signature="1733:1776" ph="..." />
-                <marker date="1543568118846" expanded="true" signature="3543:3704" ph="..." />
+                <marker date="1543810287208" expanded="true" signature="1023:2934" ph="..." />
+                <marker date="1543810287208" expanded="true" signature="2987:5833" ph="..." />
+                <marker date="1543810287208" expanded="true" signature="3939:3982" ph="..." />
+                <marker date="1543810287208" expanded="true" signature="5844:6005" ph="..." />
               </folding>
             </state>
           </provider>
@@ -79,7 +80,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/matplotlib/axes/_base.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
+            <state relative-caret-position="72380">
               <caret line="3323" column="8" selection-start-line="3323" selection-start-column="8" selection-end-line="3323" selection-end-column="8" />
             </state>
           </provider>
@@ -88,7 +89,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/matplotlib/figure.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
+            <state relative-caret-position="26004">
               <caret line="1216" column="8" selection-start-line="1216" selection-start-column="8" selection-end-line="1216" selection-end-column="8" />
             </state>
           </provider>
@@ -106,7 +107,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/pandas_datareader/data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
+            <state relative-caret-position="4862">
               <caret line="255" column="4" selection-start-line="255" selection-start-column="4" selection-end-line="255" selection-end-column="4" />
             </state>
           </provider>
@@ -115,7 +116,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FindHistoricalData.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
+            <state relative-caret-position="198">
               <caret line="12" column="38" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="38" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
@@ -167,8 +168,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="398" />
-    <option name="y" value="67" />
+    <option name="x" value="397" />
+    <option name="y" value="66" />
     <option name="width" value="1750" />
     <option name="height" value="970" />
   </component>
@@ -178,6 +179,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -189,7 +191,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -207,7 +208,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.TaiStockCrawler">
+  <component name="RunManager" selected="Python.StockPlot">
+    <configuration name="StockPlot" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="TaiwanStockCrawler" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/StockPlot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="TaiStockCrawler" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TaiwanStockCrawler" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -253,9 +275,11 @@
     <list>
       <item itemvalue="Python.TaiStockCrawler" />
       <item itemvalue="Python.TaiwanHighSpeedSearch" />
+      <item itemvalue="Python.StockPlot" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.StockPlot" />
         <item itemvalue="Python.TaiStockCrawler" />
         <item itemvalue="Python.TaiwanHighSpeedSearch" />
       </list>
@@ -285,14 +309,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="840" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15191546" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.145686" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3606789" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997175" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -300,7 +323,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.16690241" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" auto_hide="true" x="243" y="96" width="1271" height="458" id="Python Console" order="10" type="WINDOWED" visible="true" weight="0.37146893" />
+      <window_info anchor="bottom" auto_hide="true" x="243" y="96" width="1271" height="458" id="Python Console" order="10" type="WINDOWED" weight="0.37146893" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -335,16 +358,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TaiwanHighSpeedSearch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="17" column="41" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/datetime.pyi">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
@@ -373,16 +386,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/pandas_datareader/data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="255" column="4" selection-start-line="255" selection-start-column="4" selection-end-line="255" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TaiStockCrawler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1545">
+        <state relative-caret-position="1738">
           <caret line="82" column="2" selection-start-line="82" selection-end-line="82" selection-end-column="2" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
@@ -390,13 +396,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FindHistoricalData.py">
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/matplotlib/axes/_base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="38" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="72380">
+          <caret line="3323" column="8" selection-start-line="3323" selection-start-column="8" selection-end-line="3323" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/matplotlib/figure.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26004">
+          <caret line="1216" column="8" selection-start-line="1216" selection-start-column="8" selection-end-line="1216" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -407,30 +417,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/matplotlib/figure.py">
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/pandas_datareader/data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1216" column="8" selection-start-line="1216" selection-start-column="8" selection-end-line="1216" selection-end-column="8" />
+        <state relative-caret-position="4862">
+          <caret line="255" column="4" selection-start-line="255" selection-start-column="4" selection-end-line="255" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/matplotlib/axes/_base.py">
+    <entry file="file://$PROJECT_DIR$/FindHistoricalData.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="3323" column="8" selection-start-line="3323" selection-start-column="8" selection-end-line="3323" selection-end-column="8" />
+        <state relative-caret-position="198">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TaiwanHighSpeedSearch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/StockPlot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="84" column="37" selection-start-line="84" selection-start-column="23" selection-end-line="84" selection-end-column="37" />
+        <state relative-caret-position="2244">
+          <caret line="132" column="65" selection-start-line="132" selection-start-column="65" selection-end-line="132" selection-end-column="65" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <marker date="1543568118846" expanded="true" signature="696:844" ph="..." />
-            <marker date="1543568118846" expanded="true" signature="897:3532" ph="..." />
-            <marker date="1543568118846" expanded="true" signature="1733:1776" ph="..." />
-            <marker date="1543568118846" expanded="true" signature="3543:3704" ph="..." />
+            <marker date="1543810287208" expanded="true" signature="1023:2934" ph="..." />
+            <marker date="1543810287208" expanded="true" signature="2987:5833" ph="..." />
+            <marker date="1543810287208" expanded="true" signature="3939:3982" ph="..." />
+            <marker date="1543810287208" expanded="true" signature="5844:6005" ph="..." />
           </folding>
         </state>
       </provider>
